@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FACEBOOK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: dodgerblue">
+<canvas></canvas>
+<script src="facebook.js"></script>
+<p id="time"> <span id="timer">0</span> </p>
+<p id="scores">Score:<span id="score">0</span></p>
+<audio id="stop-music" src="music_background.mp3" loop autoplay></audio>
+<div class="container facebook">
+    <div class=question id="question1">
+        <div class="text">1. Селектирај ја лажната објава.</div>
+        <div class="answer-buttons" class="btn-grid">
+            <button id="correct1" class="correct-answer"><img src="fbzad1.png"></button>
+            <button id="b1" class="incorrect-answer"><img src="fbzad1del2.png"></button>
+        </div> <button class="finish" id="finish">Finish</button>
+    </div>
+    <div class=question id="question2">
+        <div class="text">2. „Ослабнете 10кг за една недела со овој производ. Кликнете тука за да го купите веднаш.“ Овој наслов е добар пример за: </div>
+        <div class="answer-buttons" class="btn-grid" >
+            <button id="correct2" class="correct-answer">Кликбејт пост</button>
+            <button id="b2" class="incorrect-answer">Лажна вест</button>
+        </div> <button class="finish" id="finish1">Finish</button>
+    </div>
+    <div class=question id="question3">
+        <div class="text">3. На кој наслов верувате повеќе</div>
+        <div class="answer-buttons" class="btn-grid" >
+            <button id="a3" class="incorrect-answer"><img src="fbzad3.jpg"></button>
+            <button id="correct3" class="correct-answer"><img src="fbzad3del2.jpg"></button>
+        </div> <button class="finish" id="finish2">Finish</button>
+    </div>
+    <div class=question id="question4">
+        <div class="text">4. Дали забележувате некој проблем во следиот пост? </div>
+        <img src="fb4.png">
+        <div class="answer-buttons" class="btn-grid" >
+            <button id="a4" class="incorrect-answer">Не, според мене ова е обична реклама од TechoMarket</button>
+            <button id="correct4" class="correct-answer">Да, има лажни информации</button>
+        </div> <button class="finish" id="finish3">Finish</button>
+    </div>
+    <div  class=question id="question5">
+        <div class="text">5. Забележа лажна објава на Facebook,што ќе направиш за да ја спречиш од ширење? </div>
+        <div class="answer-buttons" class="btn-grid" >
+            <button class="incorrect-answer">Подготви свој суперхеројски костим и избриши ја објавата со супермоќите на вистината</button>
+            <button class="incorrect-answer">Cподели ја за повеќе корисници да ја видат</button>
+            <button id="correct5" class="correct-answer">Пријави ја објавата на Facebook и стани херој за спречување на лажни вести.</button>
+            <button class="incorrect-answer">Постави смешен коментар под неа и размрдај го светот со хумор.</button>
+        </div> <button class="finish" id="finish4">Finish</button>
+    </div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>

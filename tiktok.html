@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIKTOK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #800222; color:white">
+<canvas></canvas>
+<script src="tiktok.js"></script>
+<audio id="stop-music" src="music_background.mp3" loop autoplay></audio>
+<p id="time"> <span id="timer">0</span> </p>
+<p id="scores">Score:<span id="score">0</span></p>
+<div class="container tiktok">
+    <div class=question id="question13">
+        <div class="text">1. Како да се заштитите себеси и вашите лични податоци на при користење TikTok?</div>
+        <div class="answer-buttons" class="btn-grid">
+            <button  class="incorrect-answer">Исклучување на сите приватносни поставки за отворено искуство на платформата</button>
+            <button class="incorrect-answer">Споделување на лични информации во вашиот ТикТок профил</button>
+            <button class="incorrect-answer">Прифаќање на барања за пријателство од непознати корисници</button>
+            <button class="correct-answer">Користење на јака и уникатна лозинка за ТикТок профилот</button>
+        </div> <button class="finish" id="finish">Finish</button>
+    </div>
+    <div class=question id="question23">
+        <div class="text">2. Одговори во врска со ова видео.</div>
+        <video  class="justvideo" width="360" height="580" controls>
+            <source src="pope.mp4" type="video/mp4">
+        Your browser does not support the video tag</video>
+        <div class="answer-buttons" class="btn-grid" >
+            <button id="a2" class="incorrect-answer">Според мене ова е автентично, оргинално видео</button>
+            <button id="b2" class="correct-answer">Ова се AI генерирани слики</button>
+        </div> <button class="finish" id="finish1">Finish</button>
+    </div>
+    <div class=question id="question33">
+        <div class="text">3.Избери го видеото кое сметаш дека е лажно.</div>
+        <div class="answer-buttons" class="btn-grid" >
+            <button class="correct-answer"> <video  width="230" height="450" controls>
+                <source src="fake3.mp4" type="video/mp4">
+                Your browser does not support the video tag</video></button>
+            <button class="incorrect-answer"> <video width="230" height="450" controls>
+                <source src="true3.mp4" type="video/mp4">
+                Your browser does not support the video tag</video></button>
+        </div> <button class="finish" id="finish2">Finish</button>
+    </div>
+    <div class=question id="question43">
+        <div class="text">4.Избери го видеото кое сметаш дека е лажно.</div>
+        <div class="answer-buttons" class="btn-grid" >
+            <button id="a3" class="correct-answer"><video  width="230" height="450" controls>
+                <source src="putin.mp4" type="video/mp4">
+                Your browser does not support the video tag</video></button>
+            <button id="b3" class="incorrect-answer"><video  width="230" height="450" controls>
+                <source src="putin2.mp4" type="video/mp4">
+                Your browser does not support the video tag</video></button>
+        </div> <button class="finish" id="finish3">Finish</button>
+    </div>
+
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
